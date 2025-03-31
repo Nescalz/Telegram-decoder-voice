@@ -1,7 +1,5 @@
 import asyncio
 from aiogram import Bot, Dispatcher, F
-from sqlite3 import connect
-from pathlib import Path
 from app.handlers import router
 
 async def main():
